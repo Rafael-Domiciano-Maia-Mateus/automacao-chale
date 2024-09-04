@@ -1,0 +1,22 @@
+O projeto tem como objetivo automatizar a tarefa de entrar no site/ mais opções/ financeiro/ boleto e enviar pelo whatsApp automaticamente por meio de um robô de automação (RPA) com python.
+
+Bibliotecas: 
+    pyautogui
+    time
+    json
+
+Passo a Passo
+1- abrir o navegador:
+    apertar o botão do "win"
+    digirar o nome do navegador "edge"
+    apertar "enter"
+2- apertar o botão de confirmar email (obs: o login já está salvo no meu pc, por isso o "edge")
+3- apertar o botão de confirmar senha (obs: o login já está salvo no meu pc, por isso o "edge")
+4- abrir a página que esta disponivel o boleto para download 
+5- fazer o download do boleto
+6- abrir o whatsApp:
+    apertar o botão do "win"
+    digirar o nome do navegador "whatsapp"
+    apertar "enter"
+7- encontrar o contato
+8- enviar o boleto para o contato
