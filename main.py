@@ -52,9 +52,6 @@ while True:
     if not pyautogui.locateOnScreen("tem_boleto.png", confidence=0.1):
         pyautogui.alert("Não tem nenhum boleto em aberto!")
         break
-    break        
-
-# Esta parte do código ainda não esta pronta
 
 # Clicar em boleto
 time.sleep(5)
