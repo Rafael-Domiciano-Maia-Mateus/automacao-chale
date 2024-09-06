@@ -44,8 +44,6 @@ localizar_clicar("pag_chale.png", x=74, y=85, dalay=1)
 # Tratar caso de login
 login()
 
-time.sleep(2)
-
 # Apertar o botão "financeiro"
 while True:
     if not pyautogui.locateOnScreen("espera.png", confidence=0.1):
