@@ -55,6 +55,7 @@ while True:
 localizar_clicar("espera1.png", x=1416, y=311, dalay=2)
 
 # Boleto
+# colocar essa parte dentro de um try e exept
 while True:
     if not pyautogui.locateOnScreen("tem_boleto.png", confidence=0.1):
         pyautogui.alert("Não tem nenhum boleto em aberto!")
